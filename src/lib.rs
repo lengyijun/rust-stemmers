@@ -20,6 +20,11 @@
 //!    assert_eq!(en_stemmer.stem("fruitlessly"), "fruitless");
 //! }
 //! ```
+
+#![no_std]
+use std::prelude::v1::*;
+extern crate sgx_tstd as std;
+
 extern crate serde;
 #[macro_use]
 extern crate serde_derive;

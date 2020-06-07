@@ -5,6 +5,7 @@
 #![allow(non_snake_case)]
 #![allow(unused_variables)]
 #![allow(unused_mut)]
+use std::prelude::v1::*;
 use snowball::SnowballEnv;
 use snowball::Among;
 

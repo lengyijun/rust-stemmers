@@ -1,3 +1,5 @@
+
+use std::prelude::v1::*;
 use snowball::SnowballEnv;
 
 pub struct Among<T: 'static>(pub &'static str,
