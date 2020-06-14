@@ -13,4 +13,4 @@ sgx_tstd = { version = "1.0", rev = "v1.1.2", git = "https://github.com/apache/t
 
 [dependencies]
 serde = { git = "https://github.com/mesalock-linux/serde-sgx", branch = "master", features = ["derive", "rc"] }
-serde_derive = {path="./serde_derive"}
+serde_derive = {git="https://github.com/lengyijun/rust-stemmers"}
