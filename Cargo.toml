@@ -9,7 +9,7 @@ keywords = ["nlp", "stemming", "information", "retrieval", "language"]
 license = "MIT/BSD-3-Clause"
 
 [target.'cfg(not(target_env = "sgx"))'.dependencies]
-sgx_tstd = { version = "1.0", rev = "v1.1.2", git = "https://github.com/apache/teaclave-sgx-sdk.git", features=["untrusted_fs","thread", "backtrace"] }
+sgx_tstd = { version = "1.0", rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk.git", features=["untrusted_fs","thread", "backtrace"] }
 
 [dependencies]
 serde = { git = "https://github.com/mesalock-linux/serde-sgx", branch = "master", features = ["derive", "rc"] }
